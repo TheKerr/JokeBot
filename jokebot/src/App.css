@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-color: rgb(69, 186, 221);
+  height: 600px;
+}
+
+.joke-button {
+	text-transform: uppercase;
+	border-radius: 10%;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	background-color: dodgerblue;
+	border-width: 0px;
+	margin: 10px;
+	cursor: pointer;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.voices option {
+	padding: 2px;
+}
+
+.voices {
+	border-color: transparent;
+	padding: 2px;
+}
+
+.robot-img {
+	width: 25%;
+}
